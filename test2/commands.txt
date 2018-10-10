@@ -1,0 +1,23 @@
+Q1
+Cd ~/desktop
+Mkdir test2
+Cd test2
+Touchcommands.txt
+Cd ~/desktop
+Git clone https://github.com/AdamsonA/gitTest2526b.git
+Mv test2 gitTest2526b
+Cd gitTest2526b
+Git add “test2”
+Git commit -m test2
+Git push origin master
+Touch repo.txt
+Nano repo.txt
+Git add “repo.txt”
+Git commit -m repo.txt
+Git push origin master
+Touch index.html
+Nano index.html
+Git add “index.html”
+Git commit -m “index.html”
+Git push origin master
+
